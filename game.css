@@ -4,7 +4,7 @@
 body {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    top: 0;
     font-family: 'DynaPuff', sans-serif;
     display: flex;
     justify-content: center;
@@ -14,32 +14,35 @@ body {
 }
 
 .wrapper {
-    margin: 100px 0;
-    background-color: green;
+    background-color: rgb(45, 45, 160);
+    border-top-right-radius: 10rem;
     width: 50%;
+    margin-top: 40rem;
+    position: fixed;
 }
 
 .container {
     background-color: rgba(255, 255, 255, 0.829);
     margin: 10%;
+    border-top-right-radius: 7rem;
     text-align: center;
     height: 400px;
     padding-top: 50px;
-    border-radius: 5px;
+    
     padding: 10px;
 }
 
 .container h1 {
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     font-size: 45px;
-    color: rgb(3, 78, 3);
+    color: rgb(45, 45, 160);
 }
 
 input {
     width: 300px;
     outline: none;
     padding: 10px;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 45, 160);
     border-radius: 5px;
     text-align: center;
 }
@@ -52,7 +55,7 @@ input {
 }
 
 .right {
-    color: green;
+    color: rgb(45, 45, 160);
     font-weight: bold;
     letter-spacing: 1px ;
     word-spacing: 2px;
@@ -71,7 +74,7 @@ input {
 }
 
 button {
-    background: green;
+    background: rgb(45, 45, 160);
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -104,6 +107,9 @@ button {
 
     .container h1 {
         font-size: 40px;
+    }
+    body{
+        /* margin: 80px auto; */
     }
 
 }
